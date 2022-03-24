@@ -15,7 +15,6 @@ from jax.random import KeyArray
 from pydantic import BaseModel, validator
 from sklearn.model_selection import train_test_split
 
-# synthcity absolute
 import jax_examples.logger as log
 
 # TODO: fix batchnorm

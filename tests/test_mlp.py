@@ -3,7 +3,6 @@ import jax
 import pytest
 from sklearn.datasets import load_diabetes, load_digits
 
-# synthcity absolute
 from jax_examples.models.mlp import MLP, BasicNetwork, NetworkConfig, _train_init
 
 
