@@ -11,7 +11,7 @@
 Train a MLP
 ```python
 from sklearn.datasets import load_diabetes, load_digits
-from jax_examples.models.mlp import MLP, BasicNetwork, NetworkConfig, _train_init
+from jax_examples.models.mlp import MLP
 
 # Regression
 X, y = load_diabetes(return_X_y=True)
