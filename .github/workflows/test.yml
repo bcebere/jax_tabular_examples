@@ -27,9 +27,12 @@ jobs:
       - name: Install dependencies
         run: pip install .[testing]
       - name: pre-commit validation
-        run: pre-commit run --files src/*
+        run: |
+            pip install pre-commit
+            pre-commit run --files src/*
       - name: Security checks
         run: |
+            pip install bandit
             bandit -r src/*
 
   Library:
