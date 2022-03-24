@@ -1,4 +1,4 @@
-# 🌀: Various Machine learning models implemented using [JAX](https://jax.readthedocs.io/en/latest/index.html) and [Flax](https://github.com/google/flax). 🌀
+## 🌀: Various Machine learning models implemented using [JAX](https://jax.readthedocs.io/en/latest/index.html) and [Flax](https://github.com/google/flax). 🌀
 
 ## Models 
 
